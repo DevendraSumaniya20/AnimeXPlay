@@ -3,18 +3,10 @@ import React from 'react';
 
 const HomeScreen = () => {
   return (
-    <View style={styles.HomeScreenMainContainer}>
+    <View>
       <Text>HomeScreen</Text>
     </View>
   );
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({
-  HomeScreenMainContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
